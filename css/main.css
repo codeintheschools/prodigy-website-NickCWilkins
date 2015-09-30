@@ -62,6 +62,9 @@ p {
    src: url('../fonts/prosto/prosto.ttf') format('truetype');
 }
 
+/* Open Sans */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 /***** MAIN NAVIGATION *****/
 #mainNav {
    position: fixed;
@@ -146,7 +149,7 @@ p {
 
 .intro {
    text-align: center;
-   font-family: stroke;
+   font-family: 'Open Sans';
    font-size: 1.25em;
    color: #fff;
    margin: 40px 20%;
@@ -177,7 +180,7 @@ p {
 }
 
 .expIntroText { 
-   font-family: stroke;
+   font-family: 'Open Sans';
    font-size: 1.3rem;
    width: 75%;
    margin: 25px auto 0;
@@ -197,7 +200,7 @@ p {
 }
 #imageTable {
    margin: 0 auto;
-   font-family: stroke;
+   font-family: 'Open Sans';
    text-align: center;
    color: white;
 }
@@ -279,7 +282,7 @@ p {
 }
 
 .aboutText {
-   font-family: stroke;
+   font-family: 'Open Sans';
    font-size: 1.3rem;
    color: white;
    text-indent: 30px;
